@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+
+  height: 60px;
+  background: var(--color-secondary);
+}
+
+.nav__header {
+  font-size: var(--font-big);
+}
+
+.nav__group {
+  display: flex;
+}
+
+.nav__item {
+  padding: 0 2rem;
+}
+
+.nav__link {
+  color: var(--color-white);
+}
