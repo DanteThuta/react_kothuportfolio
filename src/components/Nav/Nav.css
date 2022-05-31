@@ -22,4 +22,5 @@ nav {
 
 .nav__link {
   color: var(--color-white);
+  margin: 0 auto;
 }
