@@ -22,6 +22,8 @@
   --font-big: 2.5rem;
   --font-regular: 1.5rem;
   --font-small: 1rem;
+
+  --transition: all 400ms ease;
 }
 
 body {
