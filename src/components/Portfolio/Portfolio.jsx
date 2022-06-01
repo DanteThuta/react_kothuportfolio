@@ -1,41 +1,54 @@
 import React from "react";
+import "./Portfolio.css";
+import SPortfolio from "../../assets/portfolio6.jpg";
 
 const Portfolio = () => {
+  const projects = [
+    {
+      id: "1",
+      image: SPortfolio,
+      title: "Lorem ipsum dolor sit.",
+      projectdesc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    },
+    {
+      id: "2",
+      image: SPortfolio,
+      title: "Lorem ipsum dolor sit.",
+      projectdesc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    },
+    {
+      id: "3",
+      image: SPortfolio,
+      title: "Lorem ipsum dolor sit.",
+      projectdesc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    },
+    {
+      id: "4",
+      image: SPortfolio,
+      title: "Lorem ipsum dolor sit.",
+      projectdesc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    },
+  ];
   return (
     <section>
-      <div className="container">
-        <article>
-          <img src="" alt="" />
-          <h2>Lorem ipsum dolor sit.</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      asdf
+      <div className="heading__section">
+        <h5>Projects</h5>
+        <h2>Personal Projects</h2>
+      </div>
+      <div className="container portfolio__container">
+        {projects.map(({ id, image, title, projectdesc }) => {
+          return (
+            <article className="portfolio__item" key={id}>
+              <img src={SPortfolio} alt="" />
+              <h2>{title}</h2>
+              <p>{projectdesc}</p>
 
-          <button>View</button>
-          <button>Demo</button>
-        </article>
-        <article>
-          <img src="" alt="" />
-          <h2>Lorem ipsum dolor sit.</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-
-          <button>View</button>
-          <button>Demo</button>
-        </article>
-        <article>
-          <img src="" alt="" />
-          <h2>Lorem ipsum dolor sit.</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-
-          <button>View</button>
-          <button>Demo</button>
-        </article>
-        <article>
-          <img src="" alt="" />
-          <h2>Lorem ipsum dolor sit.</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-
-          <button>View</button>
-          <button>Demo</button>
-        </article>
+              <button className="btn">View</button>
+              <button className="btn">Demo</button>
+            </article>
+          );
+        })}
       </div>
     </section>
   );

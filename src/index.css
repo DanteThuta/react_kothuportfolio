@@ -37,8 +37,11 @@ html {
   scroll-behavior: smooth;
 }
 
-section {
+.container {
   margin: 2rem auto 4rem;
+}
+
+section {
   padding: 0 2rem;
 }
 
@@ -67,13 +70,13 @@ img {
   background: var(--color-main-alternative);
   width: fit-content;
 
-  margin: 0 auto;
+  margin: 0 auto 2.5rem;
   border-radius: 1rem;
 }
 
 .btn {
   background: var(--color-btn);
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
   margin: 2rem auto;
   color: var(--color-white);
 
@@ -86,7 +89,6 @@ img {
 
 .btn:hover {
   background: var(--color-secondary);
-  color: ;
 }
 
 .text-secondary {
