@@ -1,0 +1,9 @@
+.skill__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.skill__container > div {
+  border: 1px solid var(--color-secondary-alternative);
+}

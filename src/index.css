@@ -53,7 +53,7 @@ section h5 {
 }
 
 section h2 {
-  font-size: var(--font-big);
+  font-size: var(--font-regular);
 }
 
 img {
@@ -68,7 +68,7 @@ img {
   margin: 2rem auto;
   color: var(--color-white);
 
-  width: 50%;
+  width: 30%;
   border: none;
   border-radius: 2rem;
 

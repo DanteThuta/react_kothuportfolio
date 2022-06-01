@@ -5,8 +5,10 @@ import "./BackDrop.css";
 const BackDrop = () => {
   return (
     <section>
-      <h5>About me</h5>
-      <h2>React Developer</h2>
+      <div className="heading__section">
+        <h5>About me</h5>
+        <h2>React Developer</h2>
+      </div>
       <div className="container backdrop__container">
         <div className="image__section">
           <img src={MyImage} alt="" />
@@ -18,7 +20,10 @@ const BackDrop = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Laudantium, placeat!
           </p>
-          <button className="btn">View</button>
+          <div className="email__request">
+            <input type="text" placeholder="Enter Your Email" />
+            <button className="btn">View</button>
+          </div>
         </div>
       </div>
     </section>
