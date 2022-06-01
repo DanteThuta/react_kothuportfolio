@@ -17,6 +17,8 @@
   --color-secondary: #207d61;
   --color-secondary-alternative: #24f2b4;
 
+  --color-btn: #27045b;
+
   --color-white: #fff;
 
   --font-big: 2.5rem;
@@ -31,8 +33,12 @@ body {
   background: var(--color-main);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 section {
-  margin: 0 auto;
+  margin: 2rem auto;
   padding: 0 2rem;
 }
 
@@ -40,4 +46,36 @@ section h2,
 h5 {
   color: var(--color-white);
   font-weight: 600;
+}
+
+section h5 {
+  font-size: var(--font-small);
+}
+
+section h2 {
+  font-size: var(--font-big);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  background: var(--color-btn);
+  padding: 1rem 1.5rem;
+  margin: 2rem auto;
+  color: var(--color-white);
+
+  width: 50%;
+  border: none;
+  border-radius: 2rem;
+
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-secondary);
+  color: ;
 }
