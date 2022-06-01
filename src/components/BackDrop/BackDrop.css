@@ -5,14 +5,6 @@
   align-items: center;
 }
 
-.heading__section {
-  padding: 1rem 1rem;
-  background: var(--color-main-alternative);
-  width: fit-content;
-
-  border-radius: 1rem;
-}
-
 .image__section {
   width: 22rem;
   height: 30rem;
