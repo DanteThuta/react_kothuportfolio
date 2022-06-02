@@ -5,7 +5,7 @@ nav {
   padding: 1rem 2.5rem;
 
   height: 60px;
-  background: var(--color-secondary);
+  background: var(--color-main-alternative);
 }
 
 .nav__header {
@@ -24,7 +24,7 @@ nav {
 }
 
 .nav__group li:hover {
-  background: var(--color-main-alternative);
+  background: var(--color-secondary-alternative);
   border-radius: 2rem;
 }
 

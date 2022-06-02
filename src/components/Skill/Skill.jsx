@@ -5,12 +5,12 @@ import { FaReact } from "react-icons/fa";
 
 const Skill = () => {
   return (
-    <section>
+    <section className="skill__container">
       <div className="heading__section">
         <h5>Skills</h5>
         <h2>Frond & Backend</h2>
       </div>
-      <div className="container skill__container">
+      <div className="container">
         <div className="first__skills">
           <h2>Frontend skill</h2>
           <div className="first__skilllist">

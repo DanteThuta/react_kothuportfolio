@@ -15,7 +15,9 @@ const Footer = () => {
     <footer>
       <div className="container footer__container">
         <div className="logo">
-          <h2>KoThu Portfolio</h2>
+          <h2>My Portfolio</h2>
+          <h5>dantethuta97@gmail.com</h5>
+          <p>&copy; All rights Reserved.</p>
           {/* <img src={MyImage} alt="" /> */}
         </div>
         <div className="website__links">
@@ -48,8 +50,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="copyright__content">
-        <h2>KoThu Portfolio</h2>
+      <div className="end__footer">
         <p>&copy; All rights Reserved.</p>
       </div>
     </footer>

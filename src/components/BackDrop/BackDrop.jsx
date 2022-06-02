@@ -1,5 +1,5 @@
 import React from "react";
-import MyImage from "../../assets/me.png";
+import MyImage from "../../assets/person.png";
 import "./BackDrop.css";
 
 const BackDrop = () => {

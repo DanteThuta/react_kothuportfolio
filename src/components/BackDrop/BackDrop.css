@@ -1,7 +1,7 @@
 .backdrop__container {
   display: flex;
-  gap: 1.5rem;
-  justify-content: space-evenly;
+  gap: 10rem;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -25,8 +25,17 @@
   flex-direction: column;
   gap: 1.5rem;
 
-  text-align: center;
+  text-align: left;
 }
+
+.content__section h2 {
+  font-size: var(--font-big);
+  color: #f2bb24;
+}
+
+/* .email__request {
+  margin: 0 5rem;
+} */
 
 .email__request input {
   padding: 1rem 2rem;

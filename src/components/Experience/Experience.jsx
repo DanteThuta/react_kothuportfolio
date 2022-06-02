@@ -13,6 +13,7 @@ const Experience = () => {
       <div className="container experience__container">
         <div className="current__experience">
           {/* Grid Section with Image will be used    */}
+          {/* I will use l35 here */}
           <h2>Experience Session</h2>
           <div className="grid__gallery">
             <article className="grid__item">

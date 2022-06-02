@@ -11,11 +11,11 @@
 }
 
 :root {
-  --color-main: #3b5b86;
-  --color-main-alternative: #76a2db;
+  --color-main: #6f5499;
+  --color-main-alternative: #430b9c;
 
-  --color-secondary: #207d61;
-  --color-secondary-alternative: #24f2b4;
+  --color-secondary: #d43982;
+  --color-secondary-alternative: #800b42;
 
   --color-btn: #27045b;
 
@@ -31,6 +31,8 @@
 body {
   font-family: "Titillium Web", sans-serif;
   background: var(--color-main);
+
+  /* background-image: url(./assets/bg-texture.png); */
 }
 
 html {
@@ -41,8 +43,10 @@ html {
   margin: 2rem auto 4rem;
 }
 
-section {
-  padding: 0 2rem;
+h2,
+h5,
+p {
+  font-weight: 600;
 }
 
 section h2,
@@ -67,21 +71,25 @@ img {
 
 .heading__section {
   padding: 1rem 1rem;
-  background: var(--color-main-alternative);
+  margin: 2rem auto 1rem;
   width: fit-content;
 
-  margin: 0 auto 2.5rem;
   border-radius: 1rem;
+  text-align: center;
+}
+
+.heading__section h2 {
+  color: var(--color-secondary);
 }
 
 .btn {
-  background: var(--color-btn);
+  background: transparent;
   padding: 1rem 1rem;
   margin: 2rem auto;
-  color: var(--color-white);
+  color: var(--color-secondary-alternative);
 
   width: 30%;
-  border: none;
+  border: 0.3rem solid var(--color-secondary-alternative);
   border-radius: 2rem;
 
   transition: var(--transition);

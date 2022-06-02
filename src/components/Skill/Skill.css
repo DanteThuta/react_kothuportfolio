@@ -1,10 +1,14 @@
 .skill__container {
+  background: #ebffff;
+}
+
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.skill__container > div {
+.container > div {
   height: fit-content;
   padding: 1rem 3rem;
 }
