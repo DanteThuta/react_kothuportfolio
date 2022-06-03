@@ -18,22 +18,22 @@ const Nav = () => {
           </a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="#skill" className="nav__link">
             Skill
           </a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="#portfolio" className="nav__link">
             Portfolio
           </a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="#experience" className="nav__link">
             Experience
           </a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <a href="#contact" className="nav__link">
             Contact
           </a>
         </li>

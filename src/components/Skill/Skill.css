@@ -23,17 +23,17 @@
 }
 
 .first__skills h5 {
-  color: var(--color-secondary-alternative);
+  color: var(--color-white);
 }
 
 .second__skills h5 {
-  color: var(--color-secondary-alternative);
+  color: var(--color-white);
 }
 
 .first__skilllist,
 .second__skilllist {
   display: grid;
-  grid-template-columns: 18rem 18rem;
+  grid-template-columns: 1fr;
   gap: 1.2rem;
 }
 
@@ -47,13 +47,14 @@
   border: 1px solid var(--color-secondary-alternative);
   border-radius: 2rem;
 
-  color: var(--color-secondary-alternative);
+  color: var(--color-white);
+  background: var(--color-btn);
 
   transition: var(--transition);
 }
 
 .first__skill:hover {
-  background: var(--color-btn);
+  background: var(--color-secondary-alternative);
   color: var(--color-white);
 }
 
@@ -63,7 +64,7 @@
 }
 
 .second__skill:hover {
-  background: var(--color-btn);
+  background: var(--color-secondary-alternative);
   color: var(--color-white);
 }
 
@@ -120,4 +121,24 @@
 .major__skill button:hover {
   color: var(--color-white);
   background-color: var(--color-btn);
+}
+
+/* Media Screens Section */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .first__skill,
+  .second__skill {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .major__skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

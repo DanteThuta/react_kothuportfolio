@@ -6,7 +6,7 @@ import "./Experience.css";
 
 const Experience = () => {
   return (
-    <section className="bg__container">
+    <section id="experience" className="bg__container">
       <div className="heading__section">
         <div className="heading__text">
           <h5>About me</h5>
@@ -46,33 +46,27 @@ const Experience = () => {
 
           <h2>Other Profiencies</h2>
           <div className="progress__section">
-            <h1>html</h1>
+            <h1>English</h1>
             <div className="single__progress">
-              <div className="progress html">50%</div>
+              <div className="progress english">70%</div>
             </div>
           </div>
           <div className="progress__section">
-            <h1>html</h1>
+            <h1>Japanese</h1>
             <div className="single__progress">
-              <div className="progress html">50%</div>
+              <div className="progress japanese">50%</div>
             </div>
           </div>
           <div className="progress__section">
-            <h1>html</h1>
+            <h1>Presentation</h1>
             <div className="single__progress">
-              <div className="progress html">50%</div>
+              <div className="progress presentation">80%</div>
             </div>
           </div>
           <div className="progress__section">
-            <h1>html</h1>
+            <h1>Teamwork</h1>
             <div className="single__progress">
-              <div className="progress html">50%</div>
-            </div>
-          </div>
-          <div className="progress__section">
-            <h1>html</h1>
-            <div className="single__progress">
-              <div className="progress nihon">40%</div>
+              <div className="progress teamwork">100%</div>
             </div>
           </div>
         </div>

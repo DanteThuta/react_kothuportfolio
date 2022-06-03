@@ -4,7 +4,7 @@
 
 .portfolio__container {
   display: grid;
-  grid-template-columns: repeat(3, 30rem);
+  grid-template-columns: repeat(3, 25rem);
   gap: 4rem;
 
   padding-bottom: 3rem;
@@ -44,4 +44,26 @@
   color: var(--color-white);
   margin: 2rem 1rem;
   font-size: var(--font-small);
+}
+
+/* Media Screens Section */
+
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: repeat(2, 20rem);
+    gap: 2rem;
+  }
+
+  .portfolio__item {
+    /* margin: 0 auto; */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio__container {
+    grid-template-columns: repeat(1, 25rem);
+  }
+
+  .portfolio__item {
+  }
 }

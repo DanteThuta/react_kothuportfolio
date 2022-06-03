@@ -31,7 +31,7 @@ const Portfolio = () => {
     },
   ];
   return (
-    <section className="bg__container">
+    <section id="portfolio" className="bg__container">
       <div className="heading__section">
         <div className="heading__text">
           <h5>About me</h5>

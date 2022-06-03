@@ -6,7 +6,7 @@ import { BsCreditCard2FrontFill } from "react-icons/bs";
 
 const Skill = () => {
   return (
-    <section className="skill__container">
+    <section id="skill" className="skill__container">
       <div className="heading__section">
         <div className="heading__text">
           <h5>About me</h5>

@@ -6,6 +6,8 @@ import {
   FaTwitterSquare,
   FaInstagramSquare,
   FaLinkedin,
+  FaWhatsappSquare,
+  FaTelegramPlane,
 } from "react-icons/fa";
 
 import "./Footer.css";
@@ -23,10 +25,18 @@ const Footer = () => {
         <div className="website__links">
           <h2>Information</h2>
           <ul>
-            <li>Skill</li>
-            <li>Portfolio</li>
-            <li>Experience</li>
-            <li>Contact</li>
+            <a href="#skill">
+              <li>Skill</li>
+            </a>
+            <a href="#portfolio">
+              <li>Portfolio</li>
+            </a>
+            <a href="#experience">
+              <li>Experience</li>
+            </a>
+            <a href="#contact">
+              <li>Contact</li>
+            </a>
           </ul>
         </div>
         <div className="social__links">
@@ -50,12 +60,12 @@ const Footer = () => {
           </div>
           <div className="social__links-items">
             {/* <a href=""> */}
-            <FaLinkedin />
+            <FaWhatsappSquare />
             {/* </a> */}
           </div>
           <div className="social__links-items">
             {/* <a href=""> */}
-            <FaLinkedin />
+            <FaTelegramPlane />
             {/* </a> */}
           </div>
         </div>
