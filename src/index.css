@@ -49,6 +49,11 @@ html {
   margin: 2rem auto 0;
 }
 
+.container > div {
+  height: fit-content;
+  padding: 3rem 5rem;
+}
+
 h2,
 h5,
 p {

@@ -1,6 +1,6 @@
 .experience__container {
   display: flex;
-  gap: 4rem;
+  /* gap: 4rem; */
 }
 
 .current__experience h2 {
@@ -28,8 +28,8 @@
 }
 
 .grid__item img {
-  width: 400px;
-  height: fit-content;
+  /* width: 400px;
+  height: fit-content; */
 }
 
 .grid__item p {
@@ -97,4 +97,35 @@
 
 .nihon {
   width: 40%;
+}
+
+/* Media Screens Section */
+
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    width: var(--view--md);
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .experience__container {
+    width: var(--view--sm);
+  }
+
+  .grid__gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .acquired__skills {
+    margin: 0 auto;
+  }
+
+  .acquired__skills h2 {
+    left: -20%;
+  }
+
+  .progress__section {
+    width: 100%;
+  }
 }

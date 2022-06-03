@@ -50,6 +50,7 @@ footer {
   display: flex;
   gap: 4rem;
   flex-grow: 1;
+  flex-wrap: wrap;
 
   margin: 0 auto;
   position: relative;
@@ -70,4 +71,35 @@ footer {
   text-align: center;
 
   color: var(--color-white);
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__container {
+    flex-direction: column;
+
+    width: var(--view--md);
+  }
+
+  .logo {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .social__links {
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__container {
+    width: var(--view--sm);
+  }
+
+  .logo {
+    display: block;
+  }
 }

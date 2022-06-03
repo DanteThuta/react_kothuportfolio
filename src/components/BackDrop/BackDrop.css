@@ -75,6 +75,10 @@
     width: var(--view--sm);
   }
 
+  .container > div {
+    padding: 3rem 2rem;
+  }
+
   .backdrop__container {
     flex-direction: column;
   }

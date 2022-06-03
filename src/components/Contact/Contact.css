@@ -79,3 +79,29 @@ textarea {
   background: var(--color-main-alternative);
   color: var(--color-white);
 }
+
+/* Media Screens Section */
+
+@media screen and (max-width: 1024px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact__container {
+    width: var(--view-sm);
+  }
+
+  .contact__formlist input,
+  textarea {
+    width: 100%;
+  }
+
+  .contact__item {
+    width: 100%;
+    padding: 3rem 2rem;
+    margin: 2rem auto;
+  }
+}

@@ -48,10 +48,20 @@ const Footer = () => {
             <FaLinkedin />
             {/* </a> */}
           </div>
+          <div className="social__links-items">
+            {/* <a href=""> */}
+            <FaLinkedin />
+            {/* </a> */}
+          </div>
+          <div className="social__links-items">
+            {/* <a href=""> */}
+            <FaLinkedin />
+            {/* </a> */}
+          </div>
         </div>
       </div>
       <div className="end__footer">
-        <p>&copy; All rights Reserved.</p>
+        <p> 2022 &copy; All rights Reserved.</p>
       </div>
     </footer>
   );
