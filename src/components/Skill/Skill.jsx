@@ -2,13 +2,19 @@ import React from "react";
 import "./Skill.css";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import { FaReact } from "react-icons/fa";
+import { BsCreditCard2FrontFill } from "react-icons/bs";
 
 const Skill = () => {
   return (
     <section className="skill__container">
       <div className="heading__section">
-        <h5>Skills</h5>
-        <h2>Frond & Backend</h2>
+        <div className="heading__text">
+          <h5>About me</h5>
+          <h2>React Developer</h2>
+        </div>
+        <div className="heading__icon">
+          <BsCreditCard2FrontFill />
+        </div>
       </div>
       <div className="container">
         <div className="first__skills">
@@ -18,27 +24,21 @@ const Skill = () => {
               <AiOutlineHtml5 className="skill__icon" />
               <div className="skill__detail">
                 <h5>Html</h5>
-                <p className="text-secondary">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </article>
             <article className="first__skill">
               <AiOutlineHtml5 className="skill__icon" />
               <div className="skill__detail">
                 <h5>Html</h5>
-                <p className="text-secondary">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </article>
             <article className="first__skill">
               <AiOutlineHtml5 className="skill__icon" />
               <div className="skill__detail">
                 <h5>Html</h5>
-                <p className="text-secondary">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </article>
           </div>
@@ -50,7 +50,7 @@ const Skill = () => {
             <FaReact className="major__skill-icon" />
             {/* <p>React Frontend</p> */}
             <a href="">
-              <button>My React Projects</button>
+              <button className="major__skill-button">My React Projects</button>
             </a>
           </article>
         </div>
@@ -62,27 +62,21 @@ const Skill = () => {
               <AiOutlineHtml5 className="skill__icon" />
               <div className="skill__detail">
                 <h5>Html</h5>
-                <p className="text-secondary">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </article>
             <article className="second__skill">
               <AiOutlineHtml5 className="skill__icon" />
               <div className="skill__detail">
                 <h5>Html</h5>
-                <p className="text-secondary">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </article>
             <article className="second__skill">
               <AiOutlineHtml5 className="skill__icon" />
               <div className="skill__detail">
                 <h5>Html</h5>
-                <p className="text-secondary">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
               </div>
             </article>
           </div>

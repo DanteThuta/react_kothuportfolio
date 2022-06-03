@@ -1,13 +1,19 @@
 import React from "react";
 import MyImage from "../../assets/person.png";
 import "./BackDrop.css";
+import { BiMessageAltDetail } from "react-icons/bi";
 
 const BackDrop = () => {
   return (
-    <section>
+    <section className="backdropbg__container">
       <div className="heading__section">
-        <h5>About me</h5>
-        <h2>React Developer</h2>
+        <div className="heading__text">
+          <h5>About me</h5>
+          <h2>React Developer</h2>
+        </div>
+        <div className="heading__icon">
+          <BiMessageAltDetail />
+        </div>
       </div>
       <div className="container backdrop__container">
         <div className="image__section">

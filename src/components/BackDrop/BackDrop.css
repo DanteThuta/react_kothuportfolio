@@ -1,8 +1,14 @@
+.backdropbg__container {
+  background: linear-gradient(var(--color-main), #9852f9);
+}
+
 .backdrop__container {
   display: flex;
-  gap: 10rem;
-  /* justify-content: space-between; */
+  /* gap: 10rem; */
+  justify-content: space-evenly;
   align-items: center;
+
+  padding-bottom: 5rem;
 }
 
 .image__section {
@@ -23,7 +29,7 @@
 .content__section {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 0.5rem;
 
   text-align: left;
 }
@@ -40,9 +46,40 @@
 .email__request input {
   padding: 1rem 2rem;
   width: 70%;
+  font-family: "Titillium Web", sans-serif;
   /* border-radius: 2rem; */
 }
 
 .email__request button {
   border-radius: 0;
+  font-size: var(--font-small);
+}
+
+/* Media Screens Section */
+
+@media screen and (max-width: 1024px) {
+  .backdropbg__container {
+    /* background: red; */
+  }
+
+  .container {
+    width: var(--view--md);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .backdropbg__container {
+  }
+
+  .container {
+    width: var(--view--sm);
+  }
+
+  .backdrop__container {
+    flex-direction: column;
+  }
+
+  .content__section {
+    text-align: center;
+  }
 }

@@ -51,12 +51,27 @@
   padding: 2rem 4rem;
 
   width: 100%;
+  position: relative;
 }
 
 .acquired__skills h2 {
   margin-bottom: 2rem;
+  position: absolute;
+  bottom: 40%;
+  left: -10%;
+  transform: rotate(-90deg);
 
-  text-align: end;
+  color: var(--color-secondary-alternative);
+  text-align: center;
+}
+
+.acquired__skills h2::after {
+  content: "";
+  height: 1px;
+
+  width: 100%;
+
+  background: var(--color-secondary-alternative);
 }
 
 .progress__section h1 {
@@ -80,6 +95,6 @@
   border-radius: 15px;
 }
 
-.html {
-  width: 50%;
+.nihon {
+  width: 40%;
 }

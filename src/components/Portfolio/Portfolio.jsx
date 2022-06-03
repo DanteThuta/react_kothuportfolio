@@ -1,6 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 import SPortfolio from "../../assets/portfolio6.jpg";
+import { FaThList } from "react-icons/fa";
 
 const Portfolio = () => {
   const projects = [
@@ -30,11 +31,15 @@ const Portfolio = () => {
     },
   ];
   return (
-    <section>
-      asdf
+    <section className="bg__container">
       <div className="heading__section">
-        <h5>Projects</h5>
-        <h2>Personal Projects</h2>
+        <div className="heading__text">
+          <h5>About me</h5>
+          <h2>React Developer</h2>
+        </div>
+        <div className="heading__icon">
+          <FaThList />
+        </div>
       </div>
       <div className="container portfolio__container">
         {projects.map(({ id, image, title, projectdesc }) => {

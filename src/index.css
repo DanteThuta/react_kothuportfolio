@@ -21,16 +21,22 @@
 
   --color-white: #fff;
 
+  --color-footer: #163a5f;
+
   --font-big: 2.5rem;
   --font-regular: 1.5rem;
   --font-small: 1rem;
 
   --transition: all 400ms ease;
+
+  --view--bg: 75%;
+  --view--md: 86%;
+  --view--sm: 90%;
 }
 
 body {
   font-family: "Titillium Web", sans-serif;
-  background: var(--color-main);
+  background: linear-gradient(var(--color-main), #9852f9);
 
   /* background-image: url(./assets/bg-texture.png); */
 }
@@ -40,7 +46,7 @@ html {
 }
 
 .container {
-  margin: 2rem auto 4rem;
+  margin: 2rem auto 0;
 }
 
 h2,
@@ -70,8 +76,11 @@ img {
 }
 
 .heading__section {
-  padding: 1rem 1rem;
-  margin: 2rem auto 1rem;
+  display: flex;
+  gap: 3rem;
+
+  padding: 3rem 1rem;
+  margin: 0 auto 1rem;
   width: fit-content;
 
   border-radius: 1rem;
@@ -82,6 +91,11 @@ img {
   color: var(--color-secondary);
 }
 
+.heading__icon {
+  font-size: var(--font-big);
+  color: var(--color-secondary-alternative);
+}
+
 .btn {
   background: transparent;
   padding: 1rem 1rem;
@@ -89,14 +103,18 @@ img {
   color: var(--color-secondary-alternative);
 
   width: 30%;
-  border: 0.3rem solid var(--color-secondary-alternative);
+  border: 0.02rem solid var(--color-secondary-alternative);
   border-radius: 2rem;
 
+  font-family: "Titillium Web", sans-serif;
   transition: var(--transition);
 }
 
 .btn:hover {
-  background: var(--color-secondary);
+  background: var(--color-main-alternative);
+  color: var(--color-white);
+
+  border: none;
 }
 
 .text-secondary {

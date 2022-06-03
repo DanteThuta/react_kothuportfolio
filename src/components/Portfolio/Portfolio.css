@@ -1,18 +1,24 @@
+.bg__container {
+  background: linear-gradient(to top, #5090eb, #a3bee3);
+}
+
 .portfolio__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(3, 30rem);
+  gap: 4rem;
+
+  padding-bottom: 3rem;
 }
 
 .portfolio__item {
-  border: 1px solid var(--color-secondary);
+  /* border: 1px solid var(--color-secondary); */
   border-radius: 1rem;
   padding: 2rem 3rem;
 
-  /* width: 80%; */
+  width: 100%;
   height: fit-content;
 
-  background: var(--color-main-alternative);
+  background: linear-gradient(to top, #10375c, #bae8e8);
 
   transition: var(--transition);
 }
@@ -29,4 +35,13 @@
 
 .portfolio__item h2 {
   margin-bottom: 1rem;
+}
+
+.portfolio__item button {
+  border: none;
+  background: var(--color-secondary);
+
+  color: var(--color-white);
+  margin: 2rem 1rem;
+  font-size: var(--font-small);
 }

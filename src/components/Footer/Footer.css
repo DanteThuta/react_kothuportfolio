@@ -2,28 +2,38 @@ footer {
   background: var(--color-main-alternative);
 }
 
+.bg__container {
+  /* background: linear-gradient(#778191, #fff); */
+}
+
 .footer__container {
   display: flex;
 
   justify-content: space-evenly;
   align-items: center;
   gap: 1rem;
+
+  color: var(--color-footer);
 }
 
 .logo {
   color: var(--color-white);
   font-size: var(--font-regular);
   flex-grow: 1;
-  /* background: red; */
 
   text-align: center;
+  color: var(--color-footer);
+}
+
+.logo h5 {
+  color: var(--color-secondary-alternative);
 }
 
 .website__links {
   flex-grow: 2;
   text-align: center;
 
-  color: var(--color-white);
+  color: var(--color-footer);
 }
 
 .website__links ul {
@@ -33,6 +43,7 @@ footer {
 
 .website__links ul li {
   padding: 1rem 2rem;
+  font-weight: 600;
 }
 
 .social__links {
@@ -41,11 +52,14 @@ footer {
   flex-grow: 1;
 
   margin: 0 auto;
+  position: relative;
 }
 
 .social__links-items {
   font-size: var(--font-big);
-  color: var(--color-white);
+  color: var(--color-footer);
+
+  padding: 0.5rem 1rem;
 }
 
 .end__footer {

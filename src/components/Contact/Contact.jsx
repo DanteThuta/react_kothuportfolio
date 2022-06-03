@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section>
+    <section className="contactbg__container">
       <div className="container contact__container">
         {/* Form Section */}
         <div className="contact__form">
@@ -33,14 +33,14 @@ const Contact = () => {
           </article>
           <article className="contact__item">
             <h5>Lorem ipsum dolor sit.</h5>
-            <h2>Facebook</h2>
+            <h2>Twitter</h2>
             <button className="btn contact__btn">Message Me</button>
 
             <a href=""></a>
           </article>
           <article className="contact__item">
             <h5>Lorem ipsum dolor sit.</h5>
-            <h2>Facebook</h2>
+            <h2>Instagram</h2>
             <button className="btn contact__btn">Message Me</button>
 
             <a href=""></a>
